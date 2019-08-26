@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.drill {
+    border: 5px solid #fff;
+    color: #fff;
+    padding: 1rem;
+    max-width: 15%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.drill:hover {
+    background-color: #fff;
+    color: black;
+    transform: scaleX(1.4);
+    transform: translateX(100px);
+    transition: all 1s
+}
